@@ -1,0 +1,42 @@
+name: "App token"
+description: "get app token"
+
+inputs:
+  github_key_pem_base64:
+    description: "Base64 encoded GitHub App private key PEM"
+    required: false
+    default: ""
+  github_app_id:
+    description: "GitHub App ID"
+    required: true
+  github_key_pem:
+    description: "GitHub App private key"
+    required: false
+    default: ""
+
+
+outputs:
+  github_token:
+    description: "Generated GitHub token"
+    value: ${{ steps.generate-token.outputs.token }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: decode key_pem
+      uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+      id: decode
+      if: ${{ inputs.github_key_pem_base64 != '' }}
+      with:
+        script: |
+          const decoded = Buffer.from('${{ inputs.github_key_pem_base64 }}', 'base64');
+          core.setOutput('decoded', decoded.toString());
+          core.setSecret(decoded.toString());
+
+    - name: Generate token
+      uses: actions/create-github-app-token@3ff1caaa28b64c9cc276ce0a02e2ff584f3900c5 # v2.0.2
+      id: generate-token
+      with:
+        app-id: ${{ inputs.github_app_id }}
+        private-key: ${{ steps.decode.outputs.decoded || inputs.github_key_pem }}
+        owner: ${{ github.repository_owner }}

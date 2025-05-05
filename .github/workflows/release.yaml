@@ -1,0 +1,32 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  release-please:
+    name: Release Please
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Github apps token
+        id: gen
+        uses: ./.github/workflows/scripts/app-token
+        with:
+          github_app_id: ${{ secrets.RELEASE_PLEASE_APP_ID }}
+          github_key_pem: ${{ secrets.RELEASE_PLEASE_APP_PRIVATE_KEY }}
+      - name: Run release-please
+        uses: googleapis/release-please-action@a02a34c4d625f9be7cb89156071d8567266a2445 # v4.2.0
+        id: release
+        with:
+          token: ${{ steps.gen.outputs.github_token }}
+          config-file: .release-please-config.json
+          manifest-file: .release-please-manifest.json
