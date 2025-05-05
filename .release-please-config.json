@@ -12,7 +12,7 @@
     },
     "lib/interceptors": {
       "release-type": "go",
-      "component": "lib/logging"
+      "component": "lib/interceptors"
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
