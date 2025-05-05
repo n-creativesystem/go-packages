@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/n-creativesystem/go-packages/compare/lib/interceptors/v1.0.0...lib/interceptors/v1.0.1) (2025-05-05)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/n-creativesystem/go-packages/lib/logging to v1.1.1 ([#24](https://github.com/n-creativesystem/go-packages/issues/24)) ([43ca6bc](https://github.com/n-creativesystem/go-packages/commit/43ca6bcbff8678f5d85951491c2de3d3ac81c220))
+
 ## 1.0.0 (2025-05-05)
 
 
