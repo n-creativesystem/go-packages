@@ -73,7 +73,6 @@ func newResource(serviceName string, version string, environment string) *resour
 		semconv.ServiceVersionKey.String(version),
 		semconv.DeploymentEnvironmentKey.String(environment),
 		attribute.String("environment", environment),
-		attribute.String("env", environment),
 	)
 }
 
