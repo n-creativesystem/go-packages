@@ -1,4 +1,4 @@
 {
   "lib/logging": "1.0.0",
-  "lib/interceptors": "0.0.0"
+  "lib/interceptors": "1.0.0"
 }
