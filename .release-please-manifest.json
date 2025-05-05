@@ -1,5 +1,5 @@
 {
   "lib/logging": "1.0.0",
   "lib/interceptors": "1.0.0",
-  "lib/trace": "1.0.0"
+  "lib/trace": "1.1.0"
 }
