@@ -13,6 +13,10 @@
     "lib/interceptors": {
       "release-type": "go",
       "component": "lib/interceptors"
+    },
+    "lib/trace": {
+      "release-type": "go",
+      "component": "lib/trace"
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
