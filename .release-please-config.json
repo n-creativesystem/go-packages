@@ -9,6 +9,10 @@
     "lib/logging": {
       "release-type": "go",
       "component": "lib/logging"
+    },
+    "lib/interceptors": {
+      "release-type": "go",
+      "component": "lib/logging"
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
