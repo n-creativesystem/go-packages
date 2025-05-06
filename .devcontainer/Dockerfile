@@ -1,4 +1,4 @@
-FROM golang:1.24.1-bullseye
+FROM golang:1.24.3-bullseye
 
 ARG GIT_VERSION=2.48.1
 
