@@ -3,7 +3,7 @@ module github.com/n-creativesystem/go-packages/lib/interceptors
 go 1.24.1
 
 require (
-	connectrpc.com/connect v1.18.1
+	connectrpc.com/connect v1.19.1
 	github.com/google/uuid v1.6.0
 	github.com/n-creativesystem/go-packages/lib/logging v1.1.1
 	github.com/stretchr/testify v1.10.0
@@ -31,7 +31,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
 	golang.org/x/sys v0.32.0 // indirect
 	golang.org/x/text v0.24.0 // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
+	google.golang.org/protobuf v1.36.9 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
