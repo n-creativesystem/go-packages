@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/n-creativesystem/go-packages/compare/lib/trace/v1.0.0...lib/trace/v1.0.1) (2026-03-08)
+
+
+### Bug Fixes
+
+* **deps:** update module go.opentelemetry.io/otel/sdk to v1.40.0 [security] ([#40](https://github.com/n-creativesystem/go-packages/issues/40)) ([8a96ea1](https://github.com/n-creativesystem/go-packages/commit/8a96ea1e86e36599191d443b5895d33ecbe0b926))
+
 ## 1.0.0 (2025-05-05)
 
 
