@@ -16,6 +16,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/getsentry/sentry-go v0.32.0 h1:YKs+//QmwE3DcYtfKRH8/KyOOF/I6Qnx7qYGNHCGmCY=
 github.com/getsentry/sentry-go v0.32.0/go.mod h1:CYNcMMz73YigoHljQRG+qPF+eMq8gG72XcGN/p71BAY=
+github.com/getsentry/sentry-go v0.35.1 h1:iopow6UVLE2aXu46xKVIs8Z9D/YZkJrHkgozrxa+tOQ=
+github.com/getsentry/sentry-go v0.35.1/go.mod h1:C55omcY9ChRQIUcVcGcs+Zdy4ZpQGvNJ7JYHIoSWOtE=
 github.com/go-errors/errors v1.4.2 h1:J6MZopCL4uSllY1OfXM374weqZFFItUbrImctkmUxIA=
 github.com/go-errors/errors v1.4.2/go.mod h1:sIVyrIiJhuEF+Pj9Ebtd6P/rEYROXFi3BopGUQ5a5Og=
 github.com/go-logr/logr v1.2.2/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
@@ -59,12 +61,18 @@ github.com/rollbar/rollbar-go v1.4.7/go.mod h1:I/jSI5yHNj7Uy8oxntmCeBSZ1ILvypqRK
 github.com/rollbar/rollbar-go/errors v1.0.0/go.mod h1:Ie0xEc1Cyj+T4XMO8s0Vf7pMfvSAAy1sb4AYc8aJsao=
 github.com/samber/lo v1.47.0 h1:z7RynLwP5nbyRscyvcD043DWYoOcYRv3mV8lBeqOCLc=
 github.com/samber/lo v1.47.0/go.mod h1:RmDH9Ct32Qy3gduHQuKJ3gW1fMHAnE/fAzQuf6He5cU=
+github.com/samber/lo v1.52.0 h1:Rvi+3BFHES3A8meP33VPAxiBZX/Aws5RxrschYGjomw=
+github.com/samber/lo v1.52.0/go.mod h1:4+MXEGsJzbKGaUEQFKBq2xtfuznW9oz/WrgyzMzRoM0=
 github.com/samber/slog-common v0.18.1 h1:c0EipD/nVY9HG5shgm/XAs67mgpWDMF+MmtptdJNCkQ=
 github.com/samber/slog-common v0.18.1/go.mod h1:QNZiNGKakvrfbJ2YglQXLCZauzkI9xZBjOhWFKS3IKk=
+github.com/samber/slog-common v0.20.0 h1:WaLnm/aCvBJSk5nR5aXZTFBaV0B47A+AEaEOiZDeUnc=
+github.com/samber/slog-common v0.20.0/go.mod h1:+Ozat1jgnnE59UAlmNX1IF3IByHsODnnwf9jUcBZ+m8=
 github.com/samber/slog-rollbar/v2 v2.7.2 h1:WyWrkUOlkDBqvhU4nQHnfbzRO2CZKf6Xd4LQMz6Rf90=
 github.com/samber/slog-rollbar/v2 v2.7.2/go.mod h1:mRi/BtpEDjVcrbg92iSWG0kPm/UqlMx5ZALcvY0B9Os=
 github.com/samber/slog-sentry/v2 v2.9.3 h1:2/PZa78BFe0FuW/wm6Q3kBcd1phb1dBFHsCWZ4wX8Ko=
 github.com/samber/slog-sentry/v2 v2.9.3/go.mod h1:HGQRgN11HkZqSw/X493Zr65yIRx9ZpjZ2T5v2Dx/REc=
+github.com/samber/slog-sentry/v2 v2.10.2 h1:K+iPNm3P9Z6HSf7+ZDNQ5Jkz2xedn/NIkqOHw947fpU=
+github.com/samber/slog-sentry/v2 v2.10.2/go.mod h1:Run3k/KDvgWb1TIRMOXg1bS6gZKz8kTl9jq6hbchm4A=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
