@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/cockroachdb/errors v1.12.0
-	github.com/getsentry/sentry-go v0.32.0
+	github.com/getsentry/sentry-go v0.43.0
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/rollbar/rollbar-go v1.4.7
 	github.com/samber/slog-rollbar/v2 v2.7.2
