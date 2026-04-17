@@ -23,10 +23,10 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.14.1 // indirect
-	github.com/rollbar/rollbar-go v1.4.7 // indirect
-	github.com/samber/lo v1.50.0 // indirect
-	github.com/samber/slog-common v0.18.1 // indirect
-	github.com/samber/slog-rollbar/v2 v2.7.2 // indirect
+	github.com/rollbar/rollbar-go v1.4.8 // indirect
+	github.com/samber/lo v1.53.0 // indirect
+	github.com/samber/slog-common v0.21.0 // indirect
+	github.com/samber/slog-rollbar/v2 v2.7.4 // indirect
 	github.com/samber/slog-sentry/v2 v2.9.3 // indirect
 	go.opentelemetry.io/otel v1.43.0 // indirect
 	go.opentelemetry.io/otel/trace v1.43.0 // indirect
