@@ -6,8 +6,8 @@ require (
 	github.com/cockroachdb/errors v1.12.0
 	github.com/getsentry/sentry-go v0.32.0
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
-	github.com/rollbar/rollbar-go v1.4.7
-	github.com/samber/slog-rollbar/v2 v2.7.2
+	github.com/rollbar/rollbar-go v1.4.8
+	github.com/samber/slog-rollbar/v2 v2.7.4
 	github.com/samber/slog-sentry/v2 v2.9.3
 	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/otel v1.43.0
@@ -29,8 +29,8 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.14.1 // indirect
-	github.com/samber/lo v1.47.0 // indirect
-	github.com/samber/slog-common v0.18.1 // indirect
+	github.com/samber/lo v1.53.0 // indirect
+	github.com/samber/slog-common v0.21.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel/metric v1.43.0 // indirect
 	golang.org/x/sys v0.42.0 // indirect
