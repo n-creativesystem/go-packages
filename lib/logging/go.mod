@@ -1,6 +1,6 @@
 module github.com/n-creativesystem/go-packages/lib/logging
 
-go 1.25.9
+go 1.25
 
 require (
 	github.com/cockroachdb/errors v1.12.0
