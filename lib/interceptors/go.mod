@@ -1,8 +1,9 @@
 module github.com/n-creativesystem/go-packages/lib/interceptors
 
-go 1.25
+go 1.25.0
 
 toolchain go1.25.9
+
 require (
 	connectrpc.com/connect v1.19.1
 	github.com/google/uuid v1.6.0
