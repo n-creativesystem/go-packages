@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/n-creativesystem/go-packages/compare/lib/logging/v1.1.2...lib/logging/v1.1.3) (2026-04-17)
+
+
+### Bug Fixes
+
+* **deps:** update module go.opentelemetry.io/otel/sdk to v1.43.0 [security] ([#46](https://github.com/n-creativesystem/go-packages/issues/46)) ([cc8e99d](https://github.com/n-creativesystem/go-packages/commit/cc8e99db0beb12acd5c486809244cd39a3b8173e))
+
 ## [1.1.2](https://github.com/n-creativesystem/go-packages/compare/lib/logging/v1.1.1...lib/logging/v1.1.2) (2026-03-07)
 
 
