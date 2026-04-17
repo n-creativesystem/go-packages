@@ -1,4 +1,4 @@
-FROM golang:1.24.1-bullseye
+FROM golang:1.26.2-trixie
 
 ARG GIT_VERSION=2.48.1
 
@@ -27,13 +27,13 @@ RUN apt-get update \
   && cd git-${GIT_VERSION} \
   && make prefix=/usr/local all -j "$(nproc)" \
   && make prefix=/usr/local install \
-  && go install github.com/cweill/gotests/gotests@v1.6.0 \
+  && go install github.com/cweill/gotests/gotests@v1.9.0 \
   && go install github.com/fatih/gomodifytags@v1.17.0 \
-  && go install github.com/josharian/impl@v1.4.0 \
+  && go install github.com/josharian/impl@v1.2.0 \
   && go install github.com/haya14busa/goplay/cmd/goplay@v1.0.0 \
-  && go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.64.6 \
-  && go install golang.org/x/tools/gopls@v0.18.1 \
-  && go install github.com/go-delve/delve/cmd/dlv@v1.24.1
+  && go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.6.0 \
+  && go install golang.org/x/tools/gopls@v0.21.1 \
+  && go install github.com/go-delve/delve/cmd/dlv@v1.26.1
 
 ARG USER_NAME=user \
   GROUP_NAME=user \
