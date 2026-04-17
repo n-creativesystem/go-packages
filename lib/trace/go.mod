@@ -1,6 +1,7 @@
 module github.com/n-creativesystem/go-packages/lib/trace
 
-go 1.25.9
+go 1.25
+toolchain go1.25.9
 
 require (
 	github.com/stretchr/testify v1.11.1
