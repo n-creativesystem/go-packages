@@ -8,7 +8,7 @@ require (
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/rollbar/rollbar-go v1.4.8
 	github.com/samber/slog-rollbar/v2 v2.7.4
-	github.com/samber/slog-sentry/v2 v2.9.3
+	github.com/samber/slog-sentry/v2 v2.10.3
 	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/otel v1.43.0
 	go.opentelemetry.io/otel/sdk v1.43.0
