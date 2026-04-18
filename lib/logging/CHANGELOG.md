@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0](https://github.com/n-creativesystem/go-packages/compare/lib/logging/v1.1.3...lib/logging/v1.2.0) (2026-04-18)
+
+
+### Features
+
+* go version up ([#59](https://github.com/n-creativesystem/go-packages/issues/59)) ([5597d3d](https://github.com/n-creativesystem/go-packages/commit/5597d3d78cde0e3aff6998a4dfac1540965c2ef8))
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/getsentry/sentry-go to v0.45.1 ([#54](https://github.com/n-creativesystem/go-packages/issues/54)) ([ebfae0e](https://github.com/n-creativesystem/go-packages/commit/ebfae0e6f356ae43d97f7060e09ab83bb5fa3075))
+* **deps:** update module github.com/samber/slog-rollbar/v2 to v2.7.4 ([#50](https://github.com/n-creativesystem/go-packages/issues/50)) ([ba05123](https://github.com/n-creativesystem/go-packages/commit/ba05123b664428f5784dec12fd3ff5eb765b43f2))
+* **deps:** update module github.com/samber/slog-sentry/v2 to v2.10.3 ([#38](https://github.com/n-creativesystem/go-packages/issues/38)) ([51cc644](https://github.com/n-creativesystem/go-packages/commit/51cc644e40132cda11caea09ea8f9787470cc579))
+
 ## [1.1.3](https://github.com/n-creativesystem/go-packages/compare/lib/logging/v1.1.2...lib/logging/v1.1.3) (2026-04-17)
 
 
