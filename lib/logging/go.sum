@@ -59,6 +59,8 @@ github.com/samber/slog-rollbar/v2 v2.7.4 h1:OJCJmN0ZNzXaJ/RSW5ytVz1zJMNhVcxxU5+G
 github.com/samber/slog-rollbar/v2 v2.7.4/go.mod h1:hTtA/8XdVX1/nqTgYAehp0aMXeVy1ChzxsHfCNc3sxA=
 github.com/samber/slog-sentry/v2 v2.9.3 h1:2/PZa78BFe0FuW/wm6Q3kBcd1phb1dBFHsCWZ4wX8Ko=
 github.com/samber/slog-sentry/v2 v2.9.3/go.mod h1:HGQRgN11HkZqSw/X493Zr65yIRx9ZpjZ2T5v2Dx/REc=
+github.com/samber/slog-sentry/v2 v2.10.3 h1:MYKqJ/94PfH0mg/oxOJ8auBKZa6gzOgMApx+8P5sUa8=
+github.com/samber/slog-sentry/v2 v2.10.3/go.mod h1:q5iKQf4IsB+Aje9xIFu2tUlpO5RpqCFsWvUyFz3o470=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
