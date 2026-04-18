@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/n-creativesystem/go-packages/compare/lib/trace/v1.1.0...lib/trace/v1.1.1) (2026-04-18)
+
+
+### Bug Fixes
+
+* **deps:** update opentelemetry-go monorepo to v1.43.0 ([#28](https://github.com/n-creativesystem/go-packages/issues/28)) ([caad4fe](https://github.com/n-creativesystem/go-packages/commit/caad4fecf45a6c9746850fc6815577a51924dac3))
+
 ## [1.1.0](https://github.com/n-creativesystem/go-packages/compare/lib/trace/v1.0.2...lib/trace/v1.1.0) (2026-04-18)
 
 
