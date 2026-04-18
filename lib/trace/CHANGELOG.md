@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/n-creativesystem/go-packages/compare/lib/trace/v1.0.2...lib/trace/v1.1.0) (2026-04-18)
+
+
+### Features
+
+* go version up ([#59](https://github.com/n-creativesystem/go-packages/issues/59)) ([5597d3d](https://github.com/n-creativesystem/go-packages/commit/5597d3d78cde0e3aff6998a4dfac1540965c2ef8))
+
 ## [1.0.2](https://github.com/n-creativesystem/go-packages/compare/lib/trace/v1.0.1...lib/trace/v1.0.2) (2026-04-17)
 
 
