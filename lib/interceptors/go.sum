@@ -1,5 +1,7 @@
 connectrpc.com/connect v1.19.1 h1:R5M57z05+90EfEvCY1b7hBxDVOUl45PrtXtAV2fOC14=
 connectrpc.com/connect v1.19.1/go.mod h1:tN20fjdGlewnSFeZxLKb0xwIZ6ozc3OQs2hTXy4du9w=
+connectrpc.com/connect v1.19.2 h1:McQ83FGdzL+t60peksi0gXC7MQ/iLKgLduAnThbM0mo=
+connectrpc.com/connect v1.19.2/go.mod h1:tN20fjdGlewnSFeZxLKb0xwIZ6ozc3OQs2hTXy4du9w=
 github.com/asaskevich/govalidator v0.0.0-20200108200545-475eaeb16496 h1:zV3ejI06GQ59hwDQAvmK1qxOQGB3WuVTRoY0okPTAv0=
 github.com/asaskevich/govalidator v0.0.0-20200108200545-475eaeb16496/go.mod h1:oGkLhpf+kjZl6xBf758TQhh5XrAeiJv/7FRz/2spLIg=
 github.com/cespare/xxhash/v2 v2.3.0 h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UFvs=
@@ -16,6 +18,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/getsentry/sentry-go v0.32.0 h1:YKs+//QmwE3DcYtfKRH8/KyOOF/I6Qnx7qYGNHCGmCY=
 github.com/getsentry/sentry-go v0.32.0/go.mod h1:CYNcMMz73YigoHljQRG+qPF+eMq8gG72XcGN/p71BAY=
+github.com/getsentry/sentry-go v0.45.1 h1:9rfzJtGiJG+MGIaWZXidDGHcH5GU1Z5y0WVJGf9nysw=
+github.com/getsentry/sentry-go v0.45.1/go.mod h1:XDotiNZbgf5U8bPDUAfvcFmOnMQQceESxyKaObSssW0=
 github.com/go-errors/errors v1.4.2 h1:J6MZopCL4uSllY1OfXM374weqZFFItUbrImctkmUxIA=
 github.com/go-errors/errors v1.4.2/go.mod h1:sIVyrIiJhuEF+Pj9Ebtd6P/rEYROXFi3BopGUQ5a5Og=
 github.com/go-logr/logr v1.4.3 h1:CjnDlHq8ikf6E492q6eKboGOC0T8CDaOvkHCIg8idEI=
@@ -58,6 +62,8 @@ github.com/samber/slog-rollbar/v2 v2.7.4 h1:OJCJmN0ZNzXaJ/RSW5ytVz1zJMNhVcxxU5+G
 github.com/samber/slog-rollbar/v2 v2.7.4/go.mod h1:hTtA/8XdVX1/nqTgYAehp0aMXeVy1ChzxsHfCNc3sxA=
 github.com/samber/slog-sentry/v2 v2.9.3 h1:2/PZa78BFe0FuW/wm6Q3kBcd1phb1dBFHsCWZ4wX8Ko=
 github.com/samber/slog-sentry/v2 v2.9.3/go.mod h1:HGQRgN11HkZqSw/X493Zr65yIRx9ZpjZ2T5v2Dx/REc=
+github.com/samber/slog-sentry/v2 v2.10.3 h1:MYKqJ/94PfH0mg/oxOJ8auBKZa6gzOgMApx+8P5sUa8=
+github.com/samber/slog-sentry/v2 v2.10.3/go.mod h1:q5iKQf4IsB+Aje9xIFu2tUlpO5RpqCFsWvUyFz3o470=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
