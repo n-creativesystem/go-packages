@@ -3,8 +3,8 @@ module github.com/n-creativesystem/go-packages/lib/logging
 go 1.25.0
 
 require (
-	github.com/cockroachdb/errors v1.12.0
-	github.com/getsentry/sentry-go v0.45.1
+	github.com/cockroachdb/errors v1.13.0
+	github.com/getsentry/sentry-go v0.46.0
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/rollbar/rollbar-go v1.4.8
 	github.com/samber/slog-rollbar/v2 v2.7.4
