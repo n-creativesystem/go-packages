@@ -18,10 +18,7 @@ import (
 )
 
 func NewTracerProvider(ctx context.Context, opts ...Option) (trace.TracerProvider, context.CancelFunc, error) {
-	opt := defaultOption
-	for _, o := range opts {
-		o.apply(opt)
-	}
+	opt := newOption(opts...)
 	var (
 		tp      trace.TracerProvider
 		cleanup func()
@@ -48,22 +45,24 @@ func NewTracerProvider(ctx context.Context, opts ...Option) (trace.TracerProvide
 		)
 		pp := newPropagator()
 		otel.SetTextMapPropagator(pp)
-		cleanup = func() {
-			f := func(fn func(ctx context.Context) error) {
-				ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
-				if err := fn(ctx); err != nil {
-					slog.Error(err.Error())
-				}
-				cancel()
-			}
-			f(sdkTP.ForceFlush)
-			f(sdkTP.Shutdown)
-			f(exporter.Shutdown)
-		}
+		cleanup = newCleanup(sdkTP.ForceFlush, sdkTP.Shutdown, exporter.Shutdown)
 		tp = sdkTP
 	}
 	otel.SetTracerProvider(tp)
 	return tp, cleanup, nil
+}
+
+// newCleanup は渡された関数をタイムアウト付きで順番に実行する cleanup 関数を返す。
+func newCleanup(fns ...func(ctx context.Context) error) func() {
+	return func() {
+		for _, fn := range fns {
+			ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+			if err := fn(ctx); err != nil {
+				slog.Error(err.Error())
+			}
+			cancel()
+		}
+	}
 }
 
 func newResource(serviceName string, version string, environment string) *resource.Resource {

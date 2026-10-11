@@ -4,6 +4,8 @@ import (
 	"net/url"
 
 	"go.opentelemetry.io/otel/attribute"
+	sdklog "go.opentelemetry.io/otel/sdk/log"
+	sdkmetric "go.opentelemetry.io/otel/sdk/metric"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 )
 
@@ -18,12 +20,14 @@ func (fn optionFunc) apply(opt *option) {
 }
 
 type option struct {
-	enabled         bool
-	agentAddr       string
-	serviceName     string
-	environment     string
-	version         string
-	sdktraceOptions []sdktrace.TracerProviderOption
+	enabled          bool
+	agentAddr        string
+	serviceName      string
+	environment      string
+	version          string
+	sdktraceOptions  []sdktrace.TracerProviderOption
+	sdkmetricOptions []sdkmetric.Option
+	sdklogOptions    []sdklog.LoggerProviderOption
 }
 
 var defaultOption = &option{
@@ -65,6 +69,31 @@ func WithSdkTraceOption(opts ...sdktrace.TracerProviderOption) Option {
 	return optionFunc(func(opt *option) {
 		opt.sdktraceOptions = append(opt.sdktraceOptions, opts...)
 	})
+}
+
+func WithSdkMetricOption(opts ...sdkmetric.Option) Option {
+	return optionFunc(func(opt *option) {
+		opt.sdkmetricOptions = append(opt.sdkmetricOptions, opts...)
+	})
+}
+
+func WithSdkLogOption(opts ...sdklog.LoggerProviderOption) Option {
+	return optionFunc(func(opt *option) {
+		opt.sdklogOptions = append(opt.sdklogOptions, opts...)
+	})
+}
+
+// newOption は defaultOption をコピーしてから opts を適用する。
+// defaultOption 自体を書き換えないようにするため、必ずこの関数を経由すること。
+func newOption(opts ...Option) *option {
+	opt := *defaultOption
+	opt.sdktraceOptions = nil
+	opt.sdkmetricOptions = nil
+	opt.sdklogOptions = nil
+	for _, o := range opts {
+		o.apply(&opt)
+	}
+	return &opt
 }
 
 type urlJoinPathFunc func(base string, elem ...string) (result string, err error)
