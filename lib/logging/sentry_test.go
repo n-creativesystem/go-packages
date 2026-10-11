@@ -1,6 +1,7 @@
 package logging
 
 import (
+	"context"
 	"log/slog"
 	"sync"
 	"testing"
@@ -24,6 +25,9 @@ func (t *TransportMock) SendEvent(event *originalsentry.Event) {
 	t.lastEvent = event
 }
 func (t *TransportMock) Flush(timeout time.Duration) bool {
+	return true
+}
+func (t *TransportMock) FlushWithContext(ctx context.Context) bool {
 	return true
 }
 func (t *TransportMock) Events() []*originalsentry.Event {
