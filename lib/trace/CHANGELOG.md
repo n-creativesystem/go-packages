@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/n-creativesystem/go-packages/compare/lib/trace/v1.2.0...lib/trace/v1.3.0) (2026-10-11)
+
+
+### Features
+
+* **trace:** add OpenTelemetry metrics and logs providers ([#88](https://github.com/n-creativesystem/go-packages/issues/88)) ([ae7f4df](https://github.com/n-creativesystem/go-packages/commit/ae7f4dfb665daac4781760fd4df714aba6cbe0e6))
+
 ## [1.2.0](https://github.com/n-creativesystem/go-packages/compare/lib/trace/v1.1.1...lib/trace/v1.2.0) (2026-04-18)
 
 
