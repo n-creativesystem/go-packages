@@ -2,7 +2,7 @@ module github.com/n-creativesystem/go-packages/lib/interceptors
 
 go 1.25.0
 
-toolchain go1.25.9
+toolchain go1.27.2
 
 require (
 	connectrpc.com/connect v1.19.1
