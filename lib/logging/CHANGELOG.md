@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/n-creativesystem/go-packages/compare/lib/logging/v1.2.0...lib/logging/v1.2.1) (2026-10-11)
+
+
+### Bug Fixes
+
+* repair lib/logging and lib/interceptors tests ([#89](https://github.com/n-creativesystem/go-packages/issues/89)) ([037c6de](https://github.com/n-creativesystem/go-packages/commit/037c6de91026bc2d8281c6477a30f8d7394db278))
+
 ## [1.2.0](https://github.com/n-creativesystem/go-packages/compare/lib/logging/v1.1.3...lib/logging/v1.2.0) (2026-04-18)
 
 
