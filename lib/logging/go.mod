@@ -3,8 +3,8 @@ module github.com/n-creativesystem/go-packages/lib/logging
 go 1.26.0
 
 require (
-	github.com/cockroachdb/errors v1.12.0
-	github.com/getsentry/sentry-go v0.45.1
+	github.com/cockroachdb/errors v1.14.0
+	github.com/getsentry/sentry-go v0.46.0
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/rollbar/rollbar-go v1.4.8
 	github.com/samber/slog-rollbar/v2 v2.7.4
@@ -36,6 +36,6 @@ require (
 	go.opentelemetry.io/otel/metric v1.47.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/sys v0.42.0 // indirect
-	golang.org/x/text v0.23.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
