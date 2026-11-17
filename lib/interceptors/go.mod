@@ -5,7 +5,7 @@ go 1.26.0
 require (
 	connectrpc.com/connect v1.19.1
 	github.com/google/uuid v1.6.0
-	github.com/n-creativesystem/go-packages/lib/logging v1.1.1
+	github.com/n-creativesystem/go-packages/lib/logging v1.2.1
 	github.com/stretchr/testify v1.12.1
 )
 
