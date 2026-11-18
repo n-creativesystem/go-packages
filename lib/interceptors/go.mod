@@ -3,7 +3,7 @@ module github.com/n-creativesystem/go-packages/lib/interceptors
 go 1.26.0
 
 require (
-	connectrpc.com/connect v1.19.1
+	connectrpc.com/connect v1.21.1
 	github.com/google/uuid v1.6.0
 	github.com/n-creativesystem/go-packages/lib/logging v1.2.1
 	github.com/stretchr/testify v1.12.1
@@ -31,7 +31,7 @@ require (
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/sys v0.48.0 // indirect
 	golang.org/x/text v0.32.0 // indirect
-	google.golang.org/protobuf v1.36.10 // indirect
+	google.golang.org/protobuf v1.36.11 // indirect
 )
 
 replace github.com/n-creativesystem/go-packages/lib/logging => ../logging
