@@ -23,9 +23,9 @@ require (
 	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/rollbar/rollbar-go v1.4.8 // indirect
 	github.com/samber/lo v1.53.0 // indirect
-	github.com/samber/slog-common v0.21.0 // indirect
+	github.com/samber/slog-common v0.22.0 // indirect
 	github.com/samber/slog-rollbar/v2 v2.7.4 // indirect
-	github.com/samber/slog-sentry/v2 v2.10.3 // indirect
+	github.com/samber/slog-sentry/v2 v2.11.0 // indirect
 	go.opentelemetry.io/otel v1.47.0 // indirect
 	go.opentelemetry.io/otel/trace v1.47.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
