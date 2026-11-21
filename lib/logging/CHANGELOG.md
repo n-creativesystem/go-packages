@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.2](https://github.com/n-creativesystem/go-packages/compare/lib/logging/v1.2.1...lib/logging/v1.2.2) (2026-11-21)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/cockroachdb/errors to v1.14.0 ([#77](https://github.com/n-creativesystem/go-packages/issues/77)) ([c3d62ae](https://github.com/n-creativesystem/go-packages/commit/c3d62ae78e9a56eed242a842ac6e79a46beb30c5))
+* **deps:** update module github.com/go-ozzo/ozzo-validation/v4 to v4.5.0 ([#80](https://github.com/n-creativesystem/go-packages/issues/80)) ([de5a565](https://github.com/n-creativesystem/go-packages/commit/de5a565e90c1798ea544a7c3a870f01bfe5c757c))
+* **deps:** update module github.com/samber/slog-sentry/v2 to v2.11.0 ([#100](https://github.com/n-creativesystem/go-packages/issues/100)) ([81fad03](https://github.com/n-creativesystem/go-packages/commit/81fad03daafa76d2c82f639d4f9b8c9485f39dee))
+* **deps:** update module go.opentelemetry.io/otel/sdk to v1.47.0 [security] ([#87](https://github.com/n-creativesystem/go-packages/issues/87)) ([632d735](https://github.com/n-creativesystem/go-packages/commit/632d735d3ca387f9925b163857608fecf99ce2d8))
+* **deps:** update module go.opentelemetry.io/otel/trace to v1.47.0 [security] ([#93](https://github.com/n-creativesystem/go-packages/issues/93)) ([d34b17e](https://github.com/n-creativesystem/go-packages/commit/d34b17ef7b04db61efcfddcdb248ea33bcf5a599))
+
 ## [1.2.1](https://github.com/n-creativesystem/go-packages/compare/lib/logging/v1.2.0...lib/logging/v1.2.1) (2026-10-11)
 
 
